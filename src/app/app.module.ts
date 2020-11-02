@@ -6,13 +6,15 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SwitchComponent } from './switch/switch.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { VirtualkbComponent } from './virtualkb/virtualkb.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SwitchComponent,
-    CarouselComponent
+    CarouselComponent,
+    VirtualkbComponent
   ],
   imports: [
     BrowserModule,

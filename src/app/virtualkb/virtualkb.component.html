@@ -1,0 +1,10 @@
+<div>
+    <input type="password" name="password" id="password" placeholder="{{password}}">
+</div>
+
+<div class="nombres">
+    <button
+    (click)="onClick($event)"
+    *ngFor="let number of numbers"
+    value={{number}}>{{number}}</button>
+</div>
