@@ -1,0 +1,11 @@
+#photoArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.lilJerseys {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:500px;
+}

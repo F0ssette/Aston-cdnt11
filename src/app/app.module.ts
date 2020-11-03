@@ -10,6 +10,10 @@ import { VirtualkbComponent } from './virtualkb/virtualkb.component';
 import { PlayersComponent } from './players/players.component';
 import { PlayerFormComponent } from './player-form/player-form.component';
 import { PlayerComponent } from './player/player.component';
+import { FlockComponent } from './TPJersey/flock/flock.component';
+import { PricesComponent } from './TPJersey/prices/prices.component';
+import { PhotosComponent } from './TPJersey/photos/photos.component';
+import { BadgeComponent } from './TPJersey/badge/badge.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { PlayerComponent } from './player/player.component';
     VirtualkbComponent,
     PlayersComponent,
     PlayerFormComponent,
-    PlayerComponent
+    PlayerComponent,
+    FlockComponent,
+    PricesComponent,
+    PhotosComponent,
+    BadgeComponent
   ],
   imports: [
     BrowserModule,

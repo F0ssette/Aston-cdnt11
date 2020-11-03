@@ -1,0 +1,8 @@
+<div id="photoArea">
+    <img [src]="bigJersey" width="500px">
+    <div class="lilJerseys">
+        <div id="thumbs" *ngFor="let jersey of jerseys">
+            <img src="{{jersey}}" width="100px" (click)="onClick($event)">
+        </div>
+    </div>
+</div>
