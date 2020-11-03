@@ -8,23 +8,21 @@ import { Component } from '@angular/core';
 export class SwitchComponent {
 
   toggle : boolean
-  buttonValue = "Oui"
-  backgroundColor = "grey"
+  buttonValue : "oui" | "non" = "oui"
+  backgroundColor = "#CCC"
 
   constructor() { }
 
   onClick() {
-    this.toggle = !this.toggle
-    console.log(this.toggle)
 
-    if (this.toggle === true) {
-      this.buttonValue = "Oui"
+    if (this.toggle = this.buttonValue === "oui") {
+      this.buttonValue = "non"
       console.log(1)
-      this.backgroundColor = "grey"
-    } else {
-      this.buttonValue = "Non"
-      console.log(0)
       this.backgroundColor = "green"
+    } else {
+      this.buttonValue = "oui"
+      console.log(0)
+      this.backgroundColor = "#CCC"
     }
   }
 

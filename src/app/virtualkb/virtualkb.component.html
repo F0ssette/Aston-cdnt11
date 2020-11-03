@@ -1,10 +1,21 @@
 <div>
-    <input type="password" name="password" id="password" placeholder="{{password}}">
+    <div>
+        <span class="box" *ngFor="let box of boxes">
+            {{box}}
+        </span>
+    </div>
 </div>
 
-<div class="nombres">
-    <button
-    (click)="onClick($event)"
-    *ngFor="let number of numbers"
-    value={{number}}>{{number}}</button>
+<div id="kb">
+    <div 
+    *ngFor="let key of keys" 
+    class="key pointer" 
+    (click)="selectKey($event)">
+        {{ key }}
+    </div>
 </div>
+
+<div class="clearfix">
+    <button class="btn" [disabled]="inputCode.length != 6" (click)="log()">Valider</button>
+</div>
+
