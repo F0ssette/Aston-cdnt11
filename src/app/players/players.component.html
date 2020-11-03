@@ -1,0 +1,6 @@
+<h2>Nombre de joueurs blessés : {{ numInjuredPlayers }}</h2>
+
+<app-player 
+*ngFor="let player of players" 
+[player]="player"
+(changeState)="onChangeState($event)"></app-player>

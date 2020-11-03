@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-const NUMS: string[] = ['0','1','2','3','4','5','6','7','8','9','0']
+const NUMS: string[] = ['1','2','3','4','5','6','7','8','9','0']
 const EMPTY_STR: string[] = ['', '', '', '', '', '']
 const BOXES = ['-', '-', '-', '-', '-', '-']
 const CODE_SIZE = 6
@@ -16,7 +16,6 @@ export class VirtualkbComponent implements OnInit {
   keys:string[] = []
   boxes = [...BOXES]
   inputCode = ""
-
 
   constructor() { }
 
@@ -41,7 +40,7 @@ export class VirtualkbComponent implements OnInit {
 
   pickValue(arr) {
     var max = arr.length // 16
-    return arr.splice(this.randomIndex(max), 1[0])
+    return arr.splice(this.randomIndex(max), 1)[0]
     // Splice altère le tableau suivant les indications pour enlever un ou des éléments et renvoie un tableau avec les éléments en moins
     // Ici on lui d'aller chercher un indice au hasard de 0 à 15
     // L'objectif est de vider le tableau de base pour en remplir un autre
