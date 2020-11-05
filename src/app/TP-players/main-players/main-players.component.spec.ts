@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FlockComponent } from './flock.component';
+import { MainPlayersComponent } from './main-players.component';
 
-describe('FlockComponent', () => {
-  let component: FlockComponent;
-  let fixture: ComponentFixture<FlockComponent>;
+describe('MainPlayersComponent', () => {
+  let component: MainPlayersComponent;
+  let fixture: ComponentFixture<MainPlayersComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FlockComponent ]
+      declarations: [ MainPlayersComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FlockComponent);
+    fixture = TestBed.createComponent(MainPlayersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

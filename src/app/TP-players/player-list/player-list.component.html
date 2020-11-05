@@ -1,0 +1,13 @@
+<h2>Liste des Joueurs</h2>
+
+<select (change)="filterPoste($event, players.position)">
+    <option>Choisi un poste</option>
+    <option>attaquant</option>
+    <option>défenseur</option>
+    <option>milieu</option>
+    <option>gardien</option>
+</select>
+
+<ul>
+    <li *ngFor="let player of players">{{ player.firstname }} {{ player.lastname }}</li>
+</ul>

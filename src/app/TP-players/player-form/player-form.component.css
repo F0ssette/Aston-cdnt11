@@ -1,0 +1,14 @@
+.form {
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.message {
+    color: darkcyan;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}

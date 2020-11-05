@@ -5,9 +5,4 @@ interface Player { // déclaration hors classe, il est aussi possible de l'exter
   injured?: boolean
 }
 
-interface Badge {
-  logo: string
-  price: number
-}
-
-export { Player, Badge }
+export { Player }

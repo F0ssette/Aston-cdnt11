@@ -1,0 +1,138 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "firstname": "Cristiano",
+      "lastname": "Ronaldo",
+      "teamid": 1,
+      "position": "attaquant",
+      "age": 35
+    },
+    {
+      "id": 2,
+      "firstname": "Paolo",
+      "lastname": "Dybala",
+      "teamid": 1,
+      "position": "attaquant",
+      "age": 26
+    },
+    {
+      "id": 3,
+      "firstname": "Alejandro",
+      "lastname": "Gomez",
+      "teamid": 2,
+      "position": "attaquant",
+      "age": 34
+    },
+    {
+      "id": 4,
+      "firstname": "Duvan",
+      "lastname": "Zapata",
+      "teamid": 2,
+      "position": "attaquant",
+      "age": 28
+    },
+    {
+      "id": 5,
+      "firstname": "Sergio",
+      "lastname": "Ramos",
+      "teamid": 3,
+      "position": "défenseur",
+      "age": 56
+    },
+    {
+      "id": 6,
+      "firstname": "Leonardo",
+      "lastname": "Bonucci",
+      "teamid": 1,
+      "position": "défenseur",
+      "age": 32
+    },
+    {
+      "id": 7,
+      "firstname": "Juan",
+      "lastname": "Quadrado",
+      "teamid": 1,
+      "position": "défenseur",
+      "age": 29
+    },
+    {
+      "id": 8,
+      "firstname": "Adrien",
+      "lastname": "Rabiot",
+      "teamid": 1,
+      "position": "milieu",
+      "age": 25
+    },
+    {
+      "id": 9,
+      "firstname": "Luka",
+      "lastname": "Modric",
+      "teamid": 3,
+      "position": "milieu",
+      "age": 33
+    },
+    {
+      "id": 10,
+      "firstname": "Rodrigo",
+      "lastname": "Betancur",
+      "teamid": 1,
+      "position": "milieu",
+      "age": 23
+    },
+    {
+      "lastname": "Wayne",
+      "firstname": "Bruce",
+      "teamId": 21,
+      "position": "Dans la Batmobile",
+      "age": 87,
+      "id": 11
+    },
+    {
+      "lastname": "Murdock",
+      "firstname": "Matt",
+      "teamId": 21,
+      "position": "Sur le toit",
+      "age": 76,
+      "id": 12
+    },
+    {
+      "lastname": "Butcher",
+      "firstname": "Billy",
+      "teamId": 1,
+      "position": "Défenseur",
+      "age": 0,
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "lastname": "Muad'Ib",
+      "firstname": "Paul",
+      "position": "Milieu",
+      "age": "35",
+      "id": 17
+    },
+    {
+      "lastname": "Cook",
+      "firstname": "Glen",
+      "position": "Gardien",
+      "age": "76",
+      "id": 18
+    },
+    {
+      "lastname": "Foekinos",
+      "firstname": "David",
+      "position": "Attaquant",
+      "age": "35",
+      "id": 19
+    }
+  ]
+}
